@@ -1,0 +1,6 @@
+@mixin buttonLightenerHover($color, $percentage) {
+    &:hover {
+        background-color: lighten($color, $percentage);
+        cursor: pointer;
+    }   
+}

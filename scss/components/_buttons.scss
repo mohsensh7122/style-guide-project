@@ -13,21 +13,27 @@
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $color-default;
+    @include buttonLightenerHover($color-default, 10%);
+
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $color-error;
+    @include buttonLightenerHover($color-error, 10%);
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $color-info;
+    @include buttonLightenerHover($color-info, 10%);
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $color-success;
+    @include buttonLightenerHover($color-success, 10%);
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $color-warning;
+    @include buttonLightenerHover($color-warning, 10%);
   }
